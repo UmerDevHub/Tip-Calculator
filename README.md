@@ -31,3 +31,9 @@ Try it live by opening the `index.html` file in any modern browser.
 
 ## Folder Structure
 
+/project-root
+│
+├── index.html # Main HTML file
+├── style.css # Styling for the app
+└── script.js # JavaScript logic
+
