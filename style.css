@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #f0f4f8; /* Light gray-blue background */
+    font-family: 'Roboto', sans-serif;
+    color: #333;
+}
+
+.main-box {
+    background: #ffffff; /* White background */
+    padding: 40px; /* Increased padding */
+    border-radius: 20px; /* Increased border-radius for a rounder look */
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    width: 400px; /* Increased width */
+    transition: box-shadow 0.3s, transform 0.3s;
+}
+
+.main-box:hover {
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
+    transform: translateY(-5px); /* Added slight lift on hover */
+}
+
+h1 {
+    margin-bottom: 20px;
+    font-size: 24px; /* Increased font size */
+    font-weight: 700;
+    color: #4a90e2; /* Beautiful blue color */
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 18px; /* Increased font size */
+    font-weight: 500;
+    color: #333;
+}
+
+input[type="number"] {
+    width: 100%;
+    padding: 14px;
+    border: 2px solid #d1d8e0; /* Light gray-blue border */
+    border-radius: 0; /* Square corners */
+    background: #ffffff; /* White background */
+    color: #333;
+    font-size: 16px;
+    box-sizing: border-box;
+    outline: none; /* Remove default outline */
+    transition: border-color 0.3s;
+    margin-bottom: 30px;
+}
+
+input[type="number"]:hover,
+input[type="number"]:focus {
+    border-color: #4a90e2; /* Blue border on hover and focus */
+    box-shadow: none; /* Remove shadow on focus */
+}
+
+input[type="number"]::placeholder {
+    color: #b1b9c4; /* Light gray placeholder */
+}
+
+button {
+    width: 100%;
+    padding: 14px;
+    margin-top: 15px;
+    border: none;
+    border-radius: 10px; /* Rounded corners for the button */
+    background: #4a90e2; /* Blue color */
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: background 0.3s, transform 0.3s;
+}
+
+button:hover {
+    background: #357abd; /* Darker blue color */
+    transform: scale(1.05);
+}
+
+p {
+    margin-top: 15px;
+    font-size: 16px;
+    padding: 12px; /* Adjusted padding */
+    color: #333;
+}
