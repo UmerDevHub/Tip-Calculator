@@ -1,3 +1,6 @@
+Your README looks great and clear! Here’s a slightly polished version you can use directly in your project:
+
+```markdown
 # Tip Calculator
 
 A simple and responsive **Tip Calculator** web app that calculates the bill per person including tip percentage.
@@ -28,12 +31,23 @@ Try it live by opening the `index.html` file in any modern browser.
 4. Click on **Calculate Bill per Person** to see the result.
 5. Use **Reset Values** button to clear inputs.
 
-
 ## Folder Structure
+
+```
 
 /project-root
 │
-├── index.html # Main HTML file
-├── style.css # Styling for the app
-└── script.js # JavaScript logic
+├── index.html       # Main HTML file
+├── style.css        # Styling for the app
+└── script.js        # JavaScript logic
 
+```
+
+## Credits
+
+Developed by [Umer Nisar].
+
+---
+
+If you want, I can help you with adding instructions for deployment or linking the live demo on GitHub Pages!
+```
