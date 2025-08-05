@@ -1,6 +1,4 @@
-Your README looks great and clear! Here’s a slightly polished version you can use directly in your project:
 
-```markdown
 # Tip Calculator
 
 A simple and responsive **Tip Calculator** web app that calculates the bill per person including tip percentage.
@@ -48,6 +46,3 @@ Try it live by opening the `index.html` file in any modern browser.
 Developed by [Umer Nisar].
 
 ---
-
-If you want, I can help you with adding instructions for deployment or linking the live demo on GitHub Pages!
-```
